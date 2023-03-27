@@ -1,9 +1,11 @@
 import './App.css';
+import Palette from './Pallete';
+import seedColors from './seedColors'
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <Palette {...seedColors[4]}/>
     </div>
   );
 }
