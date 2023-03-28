@@ -1,4 +1,5 @@
 import ColorBox from "./ColorBox";
+import './Palette.css'
 
 const Palette = (props) => {
   console.log(props)
