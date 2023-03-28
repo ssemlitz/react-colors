@@ -1,9 +1,12 @@
 const ColorBox = (props) => {
+  
+  const {background, name} = props
+  
   return ( 
-    <div className="ColorBox">
-      <span>MORE</span>
+    <div style={{background: `${background}`}} className="ColorBox">
+      <span >{name}</span>
     </div>
-   );
+  );
 }
- 
+
 export default ColorBox;
